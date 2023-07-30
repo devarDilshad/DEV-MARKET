@@ -79,7 +79,7 @@ const Market = ({ coins }) => {
             previousLabel=""
             renderOnZeroPageCount={null}
             containerClassName="flex gap-6 text-2xl text-white justify-center my-3"
-            pageClassName="bg-slate-400 px-5 py-3 rounded-full bg-primary text-bg_color"
+            pageClassName="px-5 py-3 rounded-full bg-slate-200 text-bg_color"
             activeClassName="bg-gradient-to-t from-text_gradient_start to-text_gradient_end border-s"
             activeLinkClassName="text-primary"
           />
