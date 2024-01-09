@@ -4,12 +4,6 @@ export const fetchData = async (url, options) => {
   return data;
 };
 
-export const fetchThat = async (url, options) => {
-  const response = await fetch(url,options);
-  const data = await response.json();
-  return data;
-}
-
 export const options = {
   method: "GET",
   params: {
